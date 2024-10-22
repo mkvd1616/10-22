@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .maza-nuot {
+        height: 400px;
+        width: 400px;
+
+    }
+
+    .korekcija {
+        /*uzpildo nuotrauka pagal pasirinkta ploti ir auksti*/
+        object-fit: cover;
+        /*patalpina pilna nuotrauka pasirinktuose ismatavimuose*/
+        object-fit: contain;
+        /*galimos reiksmes:top,center*/
+        object-fit: top;
+    }
+</style>
+
+<body>
+    <!--src (source) nurodomas nuotraukos adresas -->
+    <!---alt (alternative) nurodomas alternatyvus tekstas nuotraukai-->
+    <!--src reiksme gali  buti isorinis adresas-->
+    <img src="https://i.ytimg.com/vi/98Lme0kKQUE/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCAETQtC59mYmILUp7M4pATVrzIlw"
+        alt="">
+
+    <!--alt atribute irasytas tekstas atvaizduojamas kai nepaviksta surasti jos faila-->
+
+    <!--width nurodo nuotraukos ploti, height nurodo auksti-->
+    <img src="https://i.ytimg.com/vi/98Lme0kKQUE/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCAETQtC59mYmILUp7M4pATVrzIlw"
+        alt="" width="500px" height="600px">
+
+    <!--plocio ir aukscio priskirimas per CSS-->
+    <img src="https://i.ytimg.com/vi/98Lme0kKQUE/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCAETQtC59mYmILUp7M4pATVrzIlw"
+        alt="" class="maza-nuot">
+
+    <img src="https://i.ytimg.com/vi/98Lme0kKQUE/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCAETQtC59mYmILUp7M4pATVrzIlw"
+        alt="" class="korekcija">
+</body>
+
+</html>
